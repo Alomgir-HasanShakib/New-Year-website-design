@@ -216,12 +216,32 @@
   font-weight: 900;
   line-height: normal;
 }
-.sectionDescription{
-  color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-line-height: 32px; /* 160% */
+.sectionDescription {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
 }
-
+.imageDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.secondDiv {
+  z-index: -2;
+  position: relative;
+}
+.threeDiv {
+  position: absolute;
+  margin-left: 780px;
+  padding-top: 80px;
+}
+.fourthDiv {
+  margin-top: 400px;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  margin-left: 75px;
+}
