@@ -4,7 +4,7 @@
   margin: 120px 140px;
   align-items: center;
 }
-/* banner section style */
+/* ================================================banner section style ================================================*/
 .bannerSection {
   background-position: center;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@
   font-weight: 900;
 }
 
-/* catagory section styles  */
+/* ================================================catagory section styles  ================================================*/
 .allCatagory {
   padding: 120px;
 }
@@ -62,7 +62,7 @@
   font-size: 48px;
   font-weight: 700;
 }
-/* mid night party section styles */
+/* ================================================mid night party section styles ================================================*/
 
 .midPartyJoinSection {
   background-position: center;
@@ -75,11 +75,9 @@
       rgba(239, 230, 255, 0) 100%
     ),
     url("../img/Vectorrr.png");
-  /* height: 600px; */
-  /* margin: 120px 140px; */
+
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   gap: 30px;
 }
 .partySectionContent {
@@ -114,7 +112,7 @@
   padding: 68px;
 }
 
-/* schedule  section styles  */
+/* ================================================schedule  section styles================================================  */
 
 .scheduleContainer {
   background: linear-gradient(
@@ -150,7 +148,7 @@
   border: 0;
 }
 
-/* best seller section styles  */
+/* ================================================best seller section styles ================================================ */
 
 .bestSellerContent {
   display: flex;
@@ -197,8 +195,12 @@
   outline-offset: -20px;
 }
 
-/* holiday dection styles */
+/*================================================ holiday section styles ================================================*/
 
+.holidayContainer {
+  margin: 140px;
+  align-items: center;
+}
 .holidayContent {
   text-align: center;
 }
@@ -222,26 +224,197 @@
   font-family: Inter;
   font-size: 20px;
   font-weight: 500;
-  line-height: 32px; /* 160% */
+  line-height: 32px; 
 }
 .imageDiv {
   display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  vertical-align: bottom;
 }
-.secondDiv {
+.firstImg {
+  z-index: 2;
+  position: relative;
+  margin-top: 90px;
+}
+.firstImg img {
+  width: 600px;
+}
+.secondImg {
   z-index: -2;
   position: relative;
 }
-.threeDiv {
-  position: absolute;
-  margin-left: 780px;
-  padding-top: 80px;
+.secondImg img {
+  width: 400px;
 }
-.fourthDiv {
-  margin-top: 400px;
+
+.DiscountImg {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.DiscountImg img {
+  width: 200px;
+}
+.redBg {
+  margin-top: 450px;
   position: absolute;
   z-index: -1;
-  width: 100%;
-  margin-left: 75px;
+  align-items: center;
+}
+.redBg img {
+  width: 1020px;
+}
+
+/* ================================================portfolio section style  ================================================*/
+
+.portfolioContainer {
+  margin: 140px;
+}
+.portfolioSubTitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolioTitle {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.portfolioDescription {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.imageContainer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.imageContainer img {
+  width: 330px;
+  border-radius: 16px;
+  transition: 1sec ease-in-out;
+}
+.imageContainer img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ================================================newsletter section styles ================================================ */
+
+.newsLetterContaniner {
+  margin: 140px;
+  align-items: center;
+
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.newsLetterContant {
+  text-align: center;
+  padding: 80px;
+}
+.SectionTitle {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.subscribeDescription {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+#subscribeInput {
+  width: 300px;
+  border: 0;
+  padding: 17px;
+  border-radius: 50px 0px 0px 50px;
+}
+.subscribeBtn {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  padding: 13px;
+  border: 0;
+  margin: 20px -10px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+/* ================================================footer section styles ===================================================*/
+
+footer {
+  background: #070211;
+}
+.address {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 140px 50px 140px;
+}
+.contactAddress {
+  display: flex;
+  flex-direction: column;
+}
+.contactAddress .phoneNumber img {
+  width: 24px;
+  height: 30px;
+  padding: 10px;
+}
+.phoneNumber {
+  display: flex;
+  align-items: center;
+}
+.website {
+  display: flex;
+  align-items: center;
+}
+.website img {
+  padding: 10px;
+}
+.address h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+hr {
+  background: rgba(255, 255, 255, 0.15);
+  margin: 0 100px;
+}
+.socialIcon {
+  margin: 48px 100px;
+  align-items: center;
+  text-align: center;
+}
+.icons img {
+  width: 50px;
+  padding: 10px;
+}
+.copyRightArea {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+
+  align-items: center;
+  text-align: center;
+
+  padding: 100px;
+}
+.copyRightArea h4 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
 }
