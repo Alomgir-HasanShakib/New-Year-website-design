@@ -1,0 +1,151 @@
+/* shared styles  */
+
+.container {
+  margin: 120px 140px;
+  align-items: center;
+}
+/* banner section style */
+.bannerSection {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../img/Banner\ Image.png");
+  margin: 50px 140px;
+  height: 600px;
+  text-align: center;
+}
+.bannerContent {
+  align-items: center;
+  padding: 130px;
+}
+.bannerContent h4 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+.bannerContent h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+/* catagory section styles  */
+.allCatagory {
+  padding: 120px;
+}
+.allCatagoryContent {
+  text-align: center;
+}
+.offerDiscount {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+}
+.allCatagoryContent h4 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.allCatagoryText {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+/* mid night party section styles */
+
+.midPartyJoinSection {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  background-image: linear-gradient(
+      90deg,
+      #070211 0%,
+      rgba(239, 230, 255, 0) 100%
+    ),
+    url("../img/Vectorrr.png");
+  /* height: 600px; */
+  /* margin: 120px 140px; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 30px;
+}
+.partySectionContent {
+  align-items: center;
+  padding: 126px 0 126px 126px;
+}
+.partySectionTitle {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.partySectionDescription {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.joinLink {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 48px 0 0 32px;
+}
+
+.midPartyImages {
+  padding: 68px;
+}
+
+/* schedule  section styles  */
+
+.scheduleContainer {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+}
+.scheduleContent {
+  padding: 100px 300px;
+}
+.dateAndTime {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+.textColor {
+  color: #f00;
+  text-align: center;
+}
+.joinNowBtn{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 8px;
+background: #F00;
+padding: 16px 32px;
+border: 0;
+}
